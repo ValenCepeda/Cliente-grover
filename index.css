@@ -1,0 +1,85 @@
+body{
+    width: 1440px;
+    
+}
+header{
+    background-color: aqua;
+    width: 1170px;
+    height: 67px;
+    margin: 32px 0px 0px 135px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ nav{
+    margin-top: 24px;
+    width: 312px;
+    height: 24px;
+ }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+ nav ul li {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #4d4d4d;
+ }  
+nav ul li:hover {
+    color: #f55253;
+    cursor: pointer;
+  }
+
+#logoGrover {
+    width: 41.58px;
+    height: 41.58px;
+    margin-right: 7px;  
+}
+#logoLargo {
+    width: 106.22px;
+    height: 20.65px;
+}
+#contenedorLogos{
+    width: 154.9px;
+  height: 41.58px;
+  display: flex;
+  align-items: center;
+  left: 135px;
+  margin-top: 15px;
+}
+#searchBar {
+    width: 300px;
+    height: 67px;
+}
+#searchBar input{
+    width: 175px;
+    height: 16px;
+    margin-top: 25px;
+}
+#canastaDeCompras{
+    margin-left: 5px;
+    position: relative;
+    top: 5px;
+}
+#lupa{
+    position: relative;
+    top: 4px;
+}
+#span2 {
+    display: inline-block;
+    background-color: #f55253;
+    width: 28px;
+    height: 28px;
+    position: relative;
+    bottom: 13px;
+    color: white;
+    text-align: center;
+    border-radius: 14px;
+    align-items: center;
+    justify-content: center;    
+}
